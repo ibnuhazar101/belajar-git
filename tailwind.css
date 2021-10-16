@@ -1,4 +1,4 @@
-/*! tailwindcss v2.2.17 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v2.2.16 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
@@ -600,21 +600,8 @@ video {
   margin-bottom: 2rem;
 }
 
-.h-\[100px\] {
-  height: 100px;
-}
-
-.w-80 {
-  width: 20rem;
-}
-
 .list-disc {
   list-style-type: disc;
-}
-
-.bg-blue-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(96, 165, 250, var(--tw-bg-opacity));
 }
 
 .pt-20 {
@@ -628,4 +615,9 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-red-400 {
+  --tw-text-opacity: 1;
+  color: rgba(248, 113, 113, var(--tw-text-opacity));
 }
